@@ -1,0 +1,59 @@
+.form-group .invalid-feedback{
+    display: block;
+}
+.btn.btn-icons.btn-rounded.btn-outline-primary{
+width: 30px;
+height: 30px;
+padding: 5px;
+}
+.btn.btn-icons.btn-rounded.btn-outline-danger{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+.input-group-text{
+    height:32px;
+}
+
+.table-order-item td,
+.table-order-item th {
+    padding: 2px 4px;
+}
+.table-order-item input,
+.table-order-item select,
+.table-order-item textarea {
+    padding: 0 .25rem;
+}
+
+
+
+
+
+/*  */
+
+.js-table-sections-header > tr {
+    cursor: pointer;
+  }
+  
+  .js-table-sections-header > tr > td:first-child > i {
+    transition: -webkit-transform .2s ease-in-out;
+    transition: transform .2s ease-in-out;
+    transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+  }
+  
+  .js-table-sections-header + tbody {
+    display: none;
+  }
+  
+  .js-table-sections-header.show > tr > td:first-child > i {
+    display: inline-block;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  
+  .js-table-sections-header.show + tbody {
+    display: table-row-group;
+  }
+  .auth.theme-one .auto-form-wrapper .form-group .input-group .form-control {
+    height: 32px !important;
+  }
